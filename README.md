@@ -82,35 +82,35 @@ Reads a single byte and returns it as `int8`.
 
 Reads a single byte and returns it as `uint8`.
 
-### `ReadInt16(byteOrder binary.ByteOrder) (int16, error)`
+### `ReadInt16() (int16, error)`
 
 Reads 2 bytes and returns them as `int16` with the specified byte order.
 
-### `ReadUint16(byteOrder binary.ByteOrder) (uint16, error)`
+### `ReadUint16() (uint16, error)`
 
 Reads 2 bytes and returns them as `uint16` with the specified byte order.
 
-### `ReadInt32(byteOrder binary.ByteOrder) (int32, error)`
+### `ReadInt32() (int32, error)`
 
 Reads 4 bytes and returns them as `int32` with the specified byte order.
 
-### `ReadUint32(byteOrder binary.ByteOrder) (uint32, error)`
+### `ReadUint32() (uint32, error)`
 
 Reads 4 bytes and returns them as `uint32` with the specified byte order.
 
-### `ReadInt64(byteOrder binary.ByteOrder) (int64, error)`
+### `ReadInt64() (int64, error)`
 
 Reads 8 bytes and returns them as `int64` with the specified byte order.
 
-### `ReadUint64(byteOrder binary.ByteOrder) (uint64, error)`
+### `ReadUint64() (uint64, error)`
 
 Reads 8 bytes and returns them as `uint64` with the specified byte order.
 
-### `ReadFloat32(byteOrder binary.ByteOrder) (float32, error)`
+### `ReadFloat32() (float32, error)`
 
 Reads 4 bytes and returns them as `float32` with the specified byte order.
 
-### `ReadFloat64(byteOrder binary.ByteOrder) (float64, error)`
+### `ReadFloat64() (float64, error)`
 
 Reads 8 bytes and returns them as `float64` with the specified byte order.
 
